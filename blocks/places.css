@@ -1,0 +1,67 @@
+/* ------------TELA 1280---------- */
+.places {
+  max-width: 984px;
+  margin: 92px auto 90px;
+
+}
+
+
+
+
+
+/* ----BREAKPOINT - TELA 1024---*/
+
+@media screen and (max-width: 1024px) {
+
+  .places {
+    max-width: 900px;
+  }
+
+}
+
+
+/* ------------TELA 768---------- */
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+
+  }
+
+}
+
+/* ----------BREAKPOINT - TELA 544----------*/
+@media screen and (max-width:544px) {
+
+  .places {
+    max-width: 350px;
+    margin: 48px auto 45px;
+
+  }
+
+}
+
+
+/* -------TELA 320-------- */
+
+@media screen and (max-width:320px) {
+  .places {
+    max-width: 320px;
+    margin: 62px auto 104px;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

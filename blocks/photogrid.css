@@ -1,0 +1,70 @@
+/* ------------TELA 1280---------- */
+
+.photogrid {
+  max-width: 1184px;
+  display: grid;
+  grid-template-rows:repeat(2, 1fr) ;
+  grid-template-columns:repeat(4, 1fr);
+  gap: 16px;
+  margin: 118px auto 92px;
+
+}
+
+.photogrid__image {
+  width: 100%;
+  object-fit: cover;
+
+}
+
+/* -------BREAKPOINT - TELA 1024----------*/
+
+@media screen and (max-width:1024px) {
+  .photogrid {
+    max-width: 980px;
+    gap: 12px;
+  }
+
+
+}
+
+
+/* ------------TELA 768---------- */
+
+@media screen and (max-width:768px) {
+  .photogrid {
+    max-width: 720px;
+    grid-template-rows:repeat(4, 1fr) ;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 16px;
+    margin: 64px auto 88px;
+
+  }
+
+}
+
+
+/* ----------BREAKPOINT - TELA 544----------*/
+
+@media screen and (max-width:544px) {
+  .photogrid {
+    max-width: 500px;
+    gap: 12px;
+
+  }
+
+}
+
+
+/* -------TELA 320-------- */
+
+@media screen and (max-width:320px) {
+  .photogrid {
+    max-width: 288px;
+    grid-template-rows:repeat(8, 1fr) ;
+    grid-template-columns:repeat(1, 1fr);
+    row-gap: 12px;
+    margin: 38px auto 62px;
+
+  }
+
+}

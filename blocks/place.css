@@ -1,0 +1,212 @@
+/* ------------TELA 1280---------- */
+
+.place {
+  display: grid;
+  margin: 80px auto 80px;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+  'title artist'
+  'image text'
+  'button text'
+  '. text';
+  gap: 48px 40px;
+
+
+}
+
+.place__title {
+  grid-area: title;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 4.75rem;
+  color: #fff;
+  margin: 0;
+
+}
+
+.place__website {
+  grid-area: artist;
+  align-self: end;
+  max-width: 456px;
+}
+
+.place__url-heading {
+  display: block;
+  color: #aaa;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.9075rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12rem;
+  margin: 0 0 8px 0;
+}
+
+.place__artist {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  color: #fff;
+
+
+}
+
+.place__image {
+  grid-area: image;
+  margin: 0 0;
+  object-fit: contain;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+}
+
+.place__image:hover {
+  opacity: 0.5;
+
+
+
+}
+
+.place__description {
+  grid-area: text;
+
+}
+
+.place__paragraph {
+  margin: 0 0 25px 0;
+
+
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.83375rem;
+  color: #fff;
+}
+
+.place__button {
+  background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+  padding: 13px 20px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.36125rem;
+  color: #fff;
+  text-align: center;
+
+}
+
+.place__button:hover {
+  background: linear-gradient(90deg, rgba(2, 120, 254, 0.25) 0%, rgba(0, 58, 123, 0.25) 99.98%);
+
+}
+
+
+
+/* ----BREAKPOINT - TELA 1024---*/
+
+@media screen and (max-width: 1024px) {
+  .place__title{
+    font-size: 4rem;
+    line-height: 4.75rem;
+  }
+}
+
+
+/* ------------TELA 768---------- */
+
+@media screen and (max-width: 768px) {
+  .place {
+    margin: 72px 0;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto auto;
+
+
+  }
+
+  .place__title {
+    font-size: 2.625rem;
+    line-height: 2.875rem;
+  }
+
+  .place__website {
+    max-width: 352px;
+  }
+
+  .place__image {
+    grid-area: image;
+    margin: 0 0;
+    object-fit: contain;
+    max-width: 340px;
+  }
+
+
+  .place__paragraph {
+    font-size: 1rem;
+    line-height: 1.63rem;
+  }
+}
+
+
+/* ----------BREAKPOINT - TELA 544----------*/
+
+@media screen and (max-width:544px) {
+  .place {
+    margin: 50px auto 50px;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    'title'
+    'artist'
+    'image'
+    'text'
+    'button';
+    gap: 30px;
+    justify-content: center;
+
+
+  }
+
+  .place__title {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+  }
+
+  .place__website {
+    max-width: 288px;
+  }
+
+  .place__image {
+    max-width: 100%;
+    object-fit: cover;
+
+
+  }
+
+  .place__description {
+    max-width: 288px;
+
+
+
+  }
+
+  .place__button {
+    font-size: 0.875rem;
+    line-height: 1.05875rem;
+  }
+}
+
+
+/* -------TELA 320-------- */
+
+@media screen and (max-width:320px) {
+  .place {
+    margin: 50px auto 50px;
+    grid-template-columns: 288px;
+
+
+  }
+}
