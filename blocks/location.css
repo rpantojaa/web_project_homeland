@@ -1,0 +1,180 @@
+/* ------------TELA 1280---------- */
+
+
+.location {
+  margin: 0 302px 132px 148px;
+  max-width: 830px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.location__subtitle {
+  font-family: 'Inter';
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.375rem;
+  line-height: 3.625rem;
+  margin: 0 0 40px;
+  max-width: 830px;
+
+}
+
+
+.location__quote {
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  margin: 0 0 10px;
+  max-width: 738px;
+}
+
+.location__author {
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  text-align: right;
+  margin: 0;
+  max-width: 732px;
+
+}
+
+.location__paragraph {
+  font-family: 'Inter';
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 400;
+  line-height: 1.63rem;
+  margin: 32px 0 0;
+  max-width: 722px;
+}
+
+
+/* ----------BREAKPOINT - TELA 1024----------*/
+
+@media screen and (max-width:1024px){
+
+  .location {
+    max-width: 830px;
+  }
+
+
+  .location__subtitle {
+    font-size: 3.09375rem;
+    line-height: 3.34375rem;
+    max-width: 830px;
+
+
+  }
+
+  .location__quote {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    max-width: 729px;
+  }
+
+
+}
+
+
+
+/* ------------TELA 768---------- */
+
+@media screen and (max-width:768px){
+  .location {
+    max-width: 720px;
+    margin: 0 24px 88px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .location__subtitle {
+    font-size: 2.8125rem;
+    line-height: 3.0625rem;
+    margin: 0 0 50px;
+    max-width: 707px;
+
+  }
+
+  .location__quote {
+    margin: 0 0 26px;
+    max-width: 720px;
+  }
+
+  .location__author {
+    margin: 0 0 32px;
+    max-width: 720px;
+  }
+
+  .location__paragraph {
+    line-height: 1.62875rem;
+    margin: 0 0 0;
+    max-width: 720px;
+  }
+
+
+}
+
+/* ----------BREAKPOINT - TELA 544----------*/
+
+@media screen and (max-width:544px) {
+
+  .location {
+    max-width: 300px;
+
+  }
+
+  .location__subtitle {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 300px;
+
+  }
+
+
+
+}
+
+
+/* -------TELA 320-------- */
+
+@media screen and (max-width: 320px){
+
+  .location {
+    max-width: 288px;
+    margin: 0 16px 64px;
+
+
+  }
+
+  .location__subtitle {
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    margin: 0 0 40px;
+    max-width: 288px;
+
+  }
+
+  .location__quote {
+    margin: 0 0 10px;
+    max-width: 288px;
+    line-height: 1.875rem;
+  }
+
+  .location__author {
+    margin: 0 0 32px;
+    max-width: 288px;
+  }
+
+  .header__paragraph {
+    margin: 0 0;
+
+  }
+
+}
+
