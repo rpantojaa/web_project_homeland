@@ -14,3 +14,6 @@ Foram utilizadas as tecnologias de HTML e CSS, com os técnicas de alinhamento e
 
 Uma boa prática de implementação seria ter uma opção para icluir outras images, dando a experiência para o usuário olhar outras fotos
 
+##Link para a Pagina 
+
+https://rpantojaa.github.io/web_project_homeland/

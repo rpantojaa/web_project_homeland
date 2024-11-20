@@ -1,9 +1,5 @@
-/* ------------TELA 1280---------- */
-
-
 .footer {
   display: flex;
-
 }
 
 .footer__copyright {
@@ -13,57 +9,4 @@
   font-weight: 400;
   margin: 0 auto 24px;
   max-width: 166px;
-
-}
-
-
-/* ----------BREAKPOINT - TELA 1024 -----------*/
-
-
-
-@media screen and (max-width:1024px){
-  /* .header__title {
-    font-size: 5.34375rem;
-    line-height: 5.59375rem;
-  }
-
-  .header__image {
-
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto 92px;
-
-  } */
-
-  .location__subtitle {
-    font-size: 3.09375rem;
-    line-height: 3.34375rem;
-    margin: 0 0 40px;
-    max-width: 680px;
-
-  }
-}
-
-/* ------------TELA 768---------- */
-
-
-@media screen and (max-width:768px){
-
-  .footer__copyright {
-    margin: 0 auto 24px;
-
-  }
-
-}
-
-
-/* -------TELA 320-------- */
-
-@media screen and (max-width: 320px){
-
-  .footer__copyright {
-    margin: 0 auto 24px;
-
-  }
-
 }
